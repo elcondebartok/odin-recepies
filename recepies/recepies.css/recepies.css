@@ -1,0 +1,82 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(242, 180, 64);
+    margin: 25px;
+    
+}
+
+
+
+.bg-img {
+    background-image: url("../images/nav-image.png");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: .6; */
+    position: relative;
+    
+}
+
+h1 {
+    padding: 16px 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.flex-container {
+   position: absolute;
+   margin: 20px;
+   width: auto;
+}
+
+/* The nav bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+
+}
+/* Navbar links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+
+}
+ a:hover {
+    background-color: rgb(179, 35, 81);
+    color: #fff;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+ol, ul {
+margin-top: 10px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
